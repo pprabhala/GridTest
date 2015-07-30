@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test_suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="java_example.SgridExample">
+        <methods>
+          <include name="setUp"/>
+          <include name="simpleTest"/>
+        </methods>
+      </class> <!-- java_example.SgridExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [test_suite] -->
