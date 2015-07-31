@@ -18,7 +18,7 @@ public class SgridExample {
 		nodeUrl = "http://10.0.0.211:5555/";
 		
 		DesiredCapabilities capability = DesiredCapabilities.firefox();
-		capability.setBrowserName("chrome");
+		capability.setBrowserName("firefox");
 		capability.setPlatform(Platform.WIN8_1);
 		
 		driver = new RemoteWebDriver(new URL (nodeUrl), capability);
